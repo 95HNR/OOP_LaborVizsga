@@ -1,0 +1,14 @@
+========================================
+ AUTÓSZERVIZ FELDOLGOZÁSI RIPORT
+========================================
+
+--- ÖSSZEGZÉS ---
+Feldolgozott bejegyzések (összesen): 4
+Érvényes munkalapok: 0
+Hibás / Kihagyott bejegyzések: 0
+
+--- RÉSZLETES KÖLTSÉGEK (Munkalaponként) ---
+
+========================================
+ VÁRHATÓ ÖSSZBEVÉTEL: 0.00 EUR
+========================================
