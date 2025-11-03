@@ -8,6 +8,28 @@ package com.mycompany.car.service.intake;
  *
  * @author Hunor
  */
+
 public class TestEntry {
-    
+
+    // --- Mezők ---
+    private String name;
+    private boolean ok;
+
+    // --- Getters és Setters ---
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean isOk() {
+        return ok;
+    }
+
+    public void setOk(boolean ok) {
+        this.ok = ok;
+    }
 }

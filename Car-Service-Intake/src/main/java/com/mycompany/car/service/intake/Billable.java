@@ -8,6 +8,18 @@ package com.mycompany.car.service.intake;
  *
  * @author Hunor
  */
-public class Billable {
-    
+
+/**
+ * Interfész, amely előírja, hogy egy tétel számlázható,
+ * azaz rendelkezik egy kalkulálható teljes költséggel.
+ */
+public interface Billable {
+
+    /**
+     * Kiszámolja és visszaadja a tétel teljes költségét.
+     * Pl. (darabszám * egységár) vagy (munkaóra * óradíj).
+     *
+     * @return A tétel teljes költsége.
+     */
+    double calculateTotalCost();
 }

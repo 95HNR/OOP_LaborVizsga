@@ -8,6 +8,22 @@ package com.mycompany.car.service.intake;
  *
  * @author Hunor
  */
-public class Identifiable {
+
+/**
+ * Interfész, amely előírja, hogy az objektumnak van egy 
+ * egyedi azonosítója (ID).
+ */
+public interface Identifiable {
     
+    /**
+     * Visszaadja az entitás elsődleges azonosítóját.
+     * @return Az azonosító String formátumban.
+     */
+    String getId();
+
+    /**
+     * Beállítja az entitás elsődleges azonosítóját.
+     * @param id Az új azonosító.
+     */
+    void setId(String id);
 }
